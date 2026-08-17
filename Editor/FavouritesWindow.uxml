@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="root" class="fav-root">
+        <ui:VisualElement name="tabsRow" class="fav-tabs-row">
+            <ui:ScrollView mode="Horizontal" horizontal-scroller-visibility="Auto" vertical-scroller-visibility="Hidden" name="tabsScroll" class="fav-tabs-scroll">
+                <ui:VisualElement name="tabsContainer" class="fav-tabs-container" />
+            </ui:ScrollView>
+            <ui:Button name="addTabButton" text="+" class="fav-add-tab" tooltip="Add tab" />
+        </ui:VisualElement>
+        <ui:VisualElement name="listContainer" class="fav-list-container">
+            <ui:ListView name="itemsList" class="fav-items-list" />
+            <ui:Label name="emptyHint" text="Drag objects or assets here to add them." class="fav-empty-hint" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

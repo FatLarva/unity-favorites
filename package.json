@@ -1,0 +1,8 @@
+{
+  "name": "com.fatlarva.favourites",
+  "displayName": "Favourites",
+  "description": "Editor window for bookmarking assets, scene objects, and prefab children across tabs. Per-tab undo, thumbnail mode, and re-resolution of scene/prefab references on load.",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "license": "MIT"
+}
